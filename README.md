@@ -2,6 +2,13 @@
 
 james@puellmann.net $\cdot$ http://resume.puellmann.net
 
+### Contents
+[Experience](#Experience)
+[Skills](#Skills)
+[Projects](#Projects)
+[Awards](#Awards)
+[Education](#Education)
+
 ## Experience
 
 | **World Wide Technology** | _Lead DevOps Engineer_ |
@@ -58,7 +65,7 @@ james@puellmann.net $\cdot$ http://resume.puellmann.net
 | **Operating Systems:**        | Ubuntu Linux, Fedora Linux, RHEL and CentOS Linux, Debian Linux   |
 | **Other:**                    | Docker, Git, Helm, Packer, Vagrant, Hashicorp Vault, Python       |
 
-## Projects: Roles & Responsibilities
+## Projects
 
 **Lead DevOps Engineer**, Retail Loyalty Program\
 _(Terraform, Microsoft Azure, Azure DevOps, Amazon AWS)_\
@@ -104,7 +111,7 @@ restaurant online ordering system.\
 Implement all IaC and end-to-end CI/CD pipelines for Kubernetes
 infrastructure and AWS cloud environments.
 
-## Awards & Recognition
+## Awards
 
 **High Performing Employee** March 2022\
 Practice Lead for Tanzu Kubernetes product offering.
