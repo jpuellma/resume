@@ -4,7 +4,7 @@ james@puellmann.net $\cdot$ http://resume.puellmann.net
 
 ## Experience
 
-**World Wide Technology** New York, NY
+**World Wide Technology** New York, NY\
 _Lead DevOps Engineer_ Oct 2017 - Feb 2024
 
 - Lead Engineer
@@ -13,7 +13,7 @@ _Lead DevOps Engineer_ Oct 2017 - Feb 2024
 - Delivery Engineer
 - Mentor
 
-**The New York Times** New York, NY
+**The New York Times** New York, NY\
 _Lead Engineer, Infrastructure_ Jun 2013 - Oct 2017
 
 - Infrastructure deployment and administration
@@ -22,7 +22,7 @@ _Lead Engineer, Infrastructure_ Jun 2013 - Oct 2017
 - Automation and Modernization of Legacy Software Systems
 - Configuration Management and Continuous Software Integration
 
-**CenturyLink (as Savvis)** New York, NY and St. Louis, MO
+**CenturyLink (as Savvis)** New York, NY and St. Louis, MO\
 _Program Manager_ Oct 2006 - Jun 2013
 
 - Program Manager, AMC Networks
@@ -31,7 +31,7 @@ _Program Manager_ Oct 2006 - Jun 2013
 - Technical Operations Manager, American Stock Exchange
 - Sr. Systems Engineer, American Stock Exchange
 
-**Unisys** St. Louis, MO
+**Unisys** St. Louis, MO\
 _Sr. Linux Administrator, USDA Web Farm_ Nov 2002 - Oct 2006
 
 - Sr. Linux Engineer and Linux Subject Matter Expert for USDA Web Farm
