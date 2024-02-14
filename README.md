@@ -9,6 +9,8 @@ james@puellmann.net $\cdot$ http://resume.puellmann.net
 [Awards](#Awards)
 [Education](#Education)
 
+----
+
 ## Experience
 
 | **World Wide Technology** | _Lead DevOps Engineer_ |
