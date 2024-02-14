@@ -104,12 +104,6 @@ restaurant online ordering system.\
 Implement all IaC and end-to-end CI/CD pipelines for Kubernetes
 infrastructure and AWS cloud environments.
 
-## Education
-
-**University of Missouri - Columbia**\
-Columbia, MO\
-Bachelor of Science, Mathematics - May 2000
-
 ## Awards & Recognition
 
 **High Performing Employee** March 2022\
@@ -124,3 +118,9 @@ union.
 
 **High Performing Team Award** January 2019\
 Delivery Engineer for large retail chain website redesign.
+
+## Education
+
+**University of Missouri - Columbia**\
+ Columbia, MO\
+ Bachelor of Science, Mathematics - May 2000
