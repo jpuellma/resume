@@ -4,8 +4,9 @@ james@puellmann.net $\cdot$ http://resume.puellmann.net
 
 ## Experience
 
-**World Wide Technology** New York, NY\
-_Lead DevOps Engineer_ Oct 2017 - Feb 2024
+| **World Wide Technology** | _Lead DevOps Engineer_ |
+| ------------------------- | ---------------------- |
+| New York, NY              | Oct 2017 - Feb 2024    |
 
 - Lead Engineer
 - Tanzu Kubernetes Practice Lead
@@ -13,8 +14,9 @@ _Lead DevOps Engineer_ Oct 2017 - Feb 2024
 - Delivery Engineer
 - Mentor
 
-**The New York Times** New York, NY\
-_Lead Engineer, Infrastructure_ Jun 2013 - Oct 2017
+| **The New York Times** | _Lead Engineer, Infrastructure_ |
+| ---------------------- | ------------------------------- |
+| New York, NY           | Jun 2013 - Oct 2017             |
 
 - Infrastructure deployment and administration
 - Software Repository and Patch Deployment Systems
@@ -22,8 +24,9 @@ _Lead Engineer, Infrastructure_ Jun 2013 - Oct 2017
 - Automation and Modernization of Legacy Software Systems
 - Configuration Management and Continuous Software Integration
 
-**CenturyLink (as Savvis)** New York, NY and St. Louis, MO\
-_Program Manager_ Oct 2006 - Jun 2013
+| **CenturyLink (as Savvis)**    | _Program Manager_   |
+| ------------------------------ | ------------------- |
+| New York, NY and St. Louis, MO | Oct 2006 - Jun 2013 |
 
 - Program Manager, AMC Networks
 - Systems Architect, PR Newswire
@@ -31,14 +34,16 @@ _Program Manager_ Oct 2006 - Jun 2013
 - Technical Operations Manager, American Stock Exchange
 - Sr. Systems Engineer, American Stock Exchange
 
-**Unisys** St. Louis, MO\
-_Sr. Linux Administrator, USDA Web Farm_ Nov 2002 - Oct 2006
+| **Unisys**    | _Sr. Linux Administrator, USDA Web Farm_ |
+| ------------- | ---------------------------------------- |
+| St. Louis, MO | Nov 2002 - Oct 2006                      |
 
 - Sr. Linux Engineer and Linux Subject Matter Expert for USDA Web Farm
 - System Administration: Linux, Apache, Tomcat, HP-UX
 
-**Amdocs** St. Louis, MO
-_Configuration Control Administrator_ Jun 2000 - Oct 2002
+| **Amdocs**    | _Configuration Control Administrator_ |
+| ------------- | ------------------------------------- |
+| St. Louis, MO | Jun 2000 - Oct 2002                   |
 
 - Team Lead, Amdocs Infrastructure Configuration and Control Group
 
