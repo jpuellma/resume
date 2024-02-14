@@ -1,0 +1,207 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "awards": "Awards & Recognition",
+    "projects": "Projects: Roles & Responsibilities"
+  },
+  "basics": {
+    "email": "james@puellmann.net",
+    "name": "James Puellmann",
+    "website": "http://resume.puellmann.net"
+  },
+  "education": [
+    {
+      "location": "Columbia, MO",
+      "area": "Mathematics",
+      "endDate": "May 2000",
+      "institution": "University of Missouri - Columbia",
+      "studyType": "Bachelor of Science"
+    }
+  ],
+  "work": [
+    {
+      "company": "World Wide Technology",
+      "location": "New York, NY",
+      "position": "Lead DevOps Engineer",
+      "website": "",
+      "startDate": "Oct 2017",
+      "endDate": "Feb 2024",
+      "highlights": [
+        "Lead Engineer",
+        "Tanzu Kubernetes Practice Lead",
+        "DevOps Engineering Consultant",
+        "Delivery Engineer",
+        "Mentor"
+      ]
+    },
+    {
+      "highlights": [
+        "Infrastructure deployment and administration",
+        "Software Repository and Patch Deployment Systems",
+        "Standardized OS Image Provisioning",
+        "Automation and Modernization of Legacy Software Systems",
+        "Configuration Management and Continuous Software Integration"
+      ],
+      "company": "The New York Times ",
+      "position": "Lead Engineer, Infrastructure",
+      "location": "New York, NY",
+      "startDate": "Jun 2013",
+      "endDate": "Oct 2017"
+    },
+    {
+      "highlights": [
+        "Program Manager, AMC Networks",
+        "Systems Architect, PR Newswire",
+        "Technical Operations Manager, Hallmark Cards",
+        "Technical Operations Manager, American Stock Exchange",
+        "Sr. Systems Engineer, American Stock Exchange"
+      ],
+      "company": "CenturyLink (as Savvis)",
+      "position": "Program Manager",
+      "location": "New York, NY and St. Louis, MO",
+      "startDate": "Oct 2006",
+      "endDate": "Jul 2008"
+    },
+    {
+      "highlights": [
+        " Sr. Linux Engineer and Linux Subject Matter Expert for USDA Web Farm",
+        "System Administration: Linux, Apache, Tomcat, HP-UX"
+      ],
+      "company": "Unisys",
+      "position": "Sr. Linux Administrator, USDA Web Farm",
+      "location": "St. Louis, MO",
+      "startDate": "Nov 2002",
+      "endDate": "Jul 2008"
+    },
+    {
+      "highlights": [
+        "  Team Lead, Amdocs Infrastructure Configuration and Control Group"
+      ],
+      "company": "Amdocs",
+      "position": "Configuration Control Administrator",
+      "location": "St. Louis, MO",
+      "startDate": "Jun 2000",
+      "endDate": "Oct 2006"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Amazon AWS",
+        "Microsoft Azure",
+        "Kubernetes",
+        "Tanzu Kubernetes"
+      ],
+      "name": "Computing Platforms"
+    },
+    {
+      "keywords": [
+        "Terraform",
+        "Pulumi",
+        "CloudFormation"
+      ],
+      "name": "Infrastructure as Code"
+    },
+    {
+      "keywords": [
+        "Ansible",
+        "Chef",
+        "Puppet"
+      ],
+      "name": "Configuration Management"
+    },
+    {
+      "keywords": [
+        "Azure DevOps",
+        "Gitlab CI",
+        "Github Actions",
+        "Jenkins"
+      ],
+      "name": "CI/CD"
+    },
+    {
+      "keywords": [
+        "Ubuntu Linux",
+        "Fedora Linux",
+        "RHEL and CentOS Linux",
+        "Debian Linux"
+      ],
+      "name": "Operating Systems"
+    },
+    {
+      "keywords": [
+        "Docker",
+        "Git",
+        "Helm",
+        "Packer",
+        "Vagrant",
+        "Hashicorp Vault",
+        "Python"
+      ],
+      "name": "Other Notable Tech Proficiencies"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Lead Infrastructure and DevOps efforts for a team of 30+ devs and engineers to rebuild a customer loyalty platform for a global retail chain.",
+      "keywords": [
+        "Terraform",
+        "Microsoft Azure",
+        "Azure DevOps"
+      ],
+      "name": "Lead DevOps Engineer, Retail Loyalty Program"
+    },
+    {
+      "keywords": [
+        "Microsoft Azure",
+        "Azure DevOps",
+        "Terraform",
+        "Ansible"
+      ],
+      "name": "DevOps Consulting Engineer, Regional Bank Azure Migration",
+      "description": "Act as Subject Matter Expert on DevOps, IaC, and CI/CD for a large regional bank's migration to the Azure cloud."
+    },
+    {
+      "keywords": [
+        "VMware Tanzu Kubernetes Grid (TKG)",
+        "Kubernetes",
+        "VMware ESX",
+        "Amazon AWS"
+      ],
+      "name": "Practice Lead, Tanzu Kubernetes Platform",
+      "description": "Lead technical execution for Tanzu Kubernetes Product offering as partnership between WWT and VMware. Install and configure Kubernetes clusters and consult on ongoing cluster administration."
+    }
+  ],
+  "awards": [
+    {
+      "date": "March 2022",
+      "title": "High Performing Employee",
+      "summary": "as Practice Lead for Tanzu Kubernetes product offering."
+    },
+    {
+      "title": "High Performing Team Award",
+      "date": "February 2021",
+      "summary": "as DevOps Consultant for high profile credit union consulting project."
+    },
+    {
+      "date": "November 2020",
+      "title": "High Performing Team Award",
+      "summary": "as DevOps Consultant for Agile & DevOps adoption program at a credit union."
+    },
+    {
+      "date": "January 2019",
+      "title": "High Performing Team Award",
+      "summary": "as Delivery Engineer for large retail chain website redesign."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
