@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is testing GH Actions.
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - run: echo "This job was triggered by a ${{ github.event_name }} event."
       - run: echo "This job is running on s ${{ runner.os }} server hosted by github."
