@@ -115,7 +115,7 @@
       "keywords": [
         "Azure DevOps",
         "Gitlab CI",
-        "Github Actions",
+        "GitHub Actions",
         "Jenkins"
       ],
       "name": "CI/CD"
@@ -205,3 +205,4 @@
     "awards"
   ]
 }
+

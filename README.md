@@ -63,7 +63,7 @@ james@puellmann.net $\cdot$ http://resume.puellmann.net
 | **Computing Platforms:**      | Amazon AWS, Microsoft Azure, Kubernetes, Tanzu Kubernetes, VMware |
 | **Infrastructure as Code:**   | Terraform, Pulumi, CloudFormation                                 |
 | **Configuration Management:** | Ansible, Chef, Puppet                                             |
-| **CI/CD:**                    | Azure DevOps, Gitlab CI, Github Actions, Jenkins                  |
+| **CI/CD:**                    | Azure DevOps, Gitlab CI, GitHub Actions, Jenkins                  |
 | **Operating Systems:**        | Ubuntu Linux, Fedora Linux, RHEL and CentOS Linux, Debian Linux   |
 | **Other:**                    | Docker, Git, Helm, Packer, Vagrant, Hashicorp Vault, Python       |
 
