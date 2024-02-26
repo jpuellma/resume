@@ -10,6 +10,9 @@
     \pagestyle{empty}
     \raggedright
     \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+    \usepackage{hyperref}
+    \usepackage{enumitem}
+    \setlist{noitemsep}
 
     \renewcommand\familydefault{\sfdefault}
 
@@ -36,6 +39,14 @@
     % {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
     {\hspace*{-18pt}\vspace*{6pt} #1}
     \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\subheader} [1] {
+    % {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+  \begin{center}
+    {\hspace*{0pt}\vspace*{6pt} \large{\bf{#1}}}
+    % \vspace*{-6pt} \lineunder
+  \end{center}
 }
 
 \newcommand{\employer} [3] {
@@ -78,28 +89,64 @@
 \vspace*{-10pt}
 \begin{center}
 	{\Huge \scshape {James Puellmann}}\\
-	james@puellmann.net $\cdot$ http://resume.puellmann.net\\
+  james@puellmann.net $\cdot$ \href{http://resume.puellmann.net/resume.pdf}{resume.puellmann.net} \\
+  268 E. Broadway, New York, NY 10002 $\cdot$ (314) 307-7435\\
 \end{center}
+
+%==== Summary ====%
+\header{Summary}
+\vspace{1mm}
+
+Senior infrastructure engineer, DevOps advocate, Agile veteran, Certified Scrum
+    Master, and Linux enthusiast.
+\vspace{1.5mm}
+
+Extensive experience in tech leadership, system architecture, project and
+    program management roles across diverse industries including Web Media,
+    Publishing, E-Commerce, Finance, Energy, Government, IT Managed Services,
+    IT consulting, healthcare, and software development.
+\vspace{1.5mm}
+
+Broad experience in DevOps Best Practices, Linux operating system build and
+    deployment, container orchestration, infrastructure as code, configuration
+    management and workflow automation for CI/CD pipelines.
+\vspace{1.5mm}
+
+Proven team leader, mentor, and teacher.
+
+\vspace{3mm}
+
+%==== Skills ====%
+\header{Skills \& Technical Proficiencies}
+\begin{tabular}{ r l }
+  \textbf{Computing Platforms:}      & Amazon AWS, Microsoft Azure, Kubernetes, Tanzu Kubernetes, VMware\\
+  \textbf{Infrastructure as Code:}   & Terraform, Pulumi, CloudFormation, AzureRM, Bicep                \\
+  \textbf{Configuration Management:} & Ansible, Chef, Puppet                                            \\
+  \textbf{CI/CD:}                    & Azure DevOps, Gitlab CI, GitHub Actions, Jenkins                 \\
+  \textbf{Operating Systems:}        & Ubuntu Linux, Fedora Linux, RHEL and CentOS Linux, Debian Linux  \\
+  \textbf{Other:}                    & Docker, Git, Helm, Packer, Vagrant, Hashicorp Vault, Python      \\
+\end{tabular}
+\vspace{2mm}
 
 %==== Experience ====%
 \header{Experience}
 \vspace{1mm}
-
 \textbf{World Wide Technology} \hfill New York, NY\\
 \textit{Lead DevOps Engineer} \hfill Oct 2017 - Feb 2024\\
 \vspace{-1mm}
-\begin{itemize} \itemsep 1pt
-	\item Internal DevOps Practice Leader
+\begin{itemize}
+	\item DevOps Engineer
+	\item Leader, Internal DevOps Practice
+	\item Tech Mentor
 	\item Tanzu Kubernetes Practice Lead
 	\item DevOps Engineering Consultant
 	\item Delivery Engineer
-	\item Tech Mentor
 \end{itemize}
 
 \textbf{The New York Times} \hfill New York, NY\\
 \textit{Lead Engineer, Infrastructure} \hfill Jun 2013 - Oct 2017\\
 \vspace{-1mm}
-\begin{itemize} \itemsep 1pt
+\begin{itemize}
 	\item Infrastructure deployment and administration
 	\item Software Repository and Patch Deployment Systems
 	\item Standardized OS Image Provisioning
@@ -110,73 +157,67 @@
 \textbf{CenturyLink (as Savvis)} \hfill New York, NY and St. Louis, MO\\
 \textit{Program Manager} \hfill Oct 2006 - Jun 2013\\
 \vspace{-1mm}
-\begin{itemize} \itemsep 1pt
+\begin{itemize}
 	\item Program Manager, AMC Networks
 	\item Systems Architect, PR Newswire
 	\item Technical Operations Manager, Hallmark Cards
 	\item Technical Operations Manager, American Stock Exchange
 	\item Sr. Systems Engineer, American Stock Exchange
 \end{itemize}
+
 \textbf{Unisys} \hfill St. Louis, MO\\
 \textit{Sr. Linux Administrator, USDA Web Farm} \hfill Nov 2002 - Oct 2006\\
 \vspace{-1mm}
-\begin{itemize} \itemsep 1pt
+\begin{itemize}
 	\item Sr. Linux Engineer and Linux Subject Matter Expert for USDA Web Farm
 	\item System Administration: Linux, Apache, Tomcat, HP-UX
 \end{itemize}
+
 \textbf{Amdocs} \hfill St. Louis, MO\\
 \textit{Configuration Control Administrator} \hfill Jun 2000 - Oct 2002\\
 \vspace{-1mm}
-\begin{itemize} \itemsep 1pt
+\begin{itemize}
 	\item Team Lead, Amdocs Infrastructure Configuration and Control Group
 \end{itemize}
 
-%==== Skills ====%
-\header{Skills \& Technical Proficiencies}
-\begin{tabular}{ l l }
-  \textbf{Computing Platforms:}      & Amazon AWS, Microsoft Azure, Kubernetes, Tanzu Kubernetes, VMware\\
-  \textbf{Infrastructure as Code:}   & Terraform, Pulumi, CloudFormation                                \\
-  \textbf{Configuration Management:} & Ansible, Chef, Puppet                                            \\
-  \textbf{CI/CD:}                    & Azure DevOps, Gitlab CI, GitHub Actions, Jenkins                 \\
-  \textbf{Operating Systems:}        & Ubuntu Linux, Fedora Linux, RHEL and CentOS Linux, Debian Linux  \\
-  \textbf{Other:}                    & Docker, Git, Helm, Packer, Vagrant, Hashicorp Vault, Python      \\
-\end{tabular}
-\vspace{2mm}
+\pagebreak
 
 %==== Projects ====%
-\header{Projects: Roles \& Responsibilities} \nopagebreak
+\header{Projects, Roles, and Responsibilities}
 
-{\textbf{Lead DevOps Engineer}, Retail Loyalty Program} \nopagebreak \\
-{\sl (Terraform, Microsoft Azure, Azure DevOps, Amazon AWS)} \nopagebreak \\
-Lead Infrastructure and DevOps efforts for a team of 30+ developers to rebuild
-  a customer loyalty platform for a global retail chain.\nopagebreak \\
-Design and implement IaC and full CI/CD pipeline for ten software repositories
-  to deploy new architecture into Azure and integrate with legacy AWS
-  deployments.\\
+{\textbf{Lead DevOps Engineer}, WWT Loyalty Program for Global Retail Chain} \\
+\hspace{5mm}{\sl (Terraform, Microsoft Azure, Azure DevOps, Amazon AWS)} \\
+Led Infrastructure and DevOps efforts for a team of 30+ developers to rebuild
+  a customer loyalty platform for a global retail chain. \\
+Designed and implemented IaC and full CI/CD pipeline for ten software
+  repositories to deploy new architecture into Azure and integrate with legacy
+  AWS deployments.\\
 \vspace*{2mm}
 
-{\textbf{DevOps Engineer}, Medical Device Website Deployment} \nopagebreak \\
-{\sl (Terraform, Ansible, Microsoft Azure, Azure DevOps)} \nopagebreak \\
-Architect and deploy IaC and CI/CD Pipeline for new Azure cloud architecture
-  to host website and CMS application for medical device manufacturer.\\
+{\textbf{DevOps Engineer}, WWT Website Deployment for Medical Device Manufacturer} \\
+\hspace{5mm}{\sl (Terraform, Ansible, Microsoft Azure, Azure DevOps)} \\
+Architected and deployed IaC and CI/CD Pipeline for new Azure cloud
+  architecture to host website and CMS application for medical device
+  manufacturer.\\
 \vspace*{2mm}
 
-{\textbf{Consulting DevOps Engineer}, Regional Bank Azure Migration} \nopagebreak \\
-{\sl (Microsoft Azure, Azure DevOps, Terraform, Ansible)} \nopagebreak \\
-Act as Subject Matter Expert on DevOps, IaC, and CI/CD for a large regional
+{\textbf{Consulting DevOps Engineer}, WWT Azure Migration for Regional Bank } \\
+{\sl (Microsoft Azure, Azure DevOps, Terraform, Ansible)} \\
+Consulted as Subject Matter Expert on DevOps, IaC, and CI/CD for a large regional
   bank\textquotesingle{}s migration to the Azure cloud.\\
 \vspace*{2mm}
 
-{\textbf{Practice Lead}, Tanzu Kubernetes Platform} \nopagebreak \\
-{\sl (VMware Tanzu Kubernetes Grid (TKG), Kubernetes, VMware ESX, Amazon AWS)} \nopagebreak \\
-Lead technical execution for Tanzu Kubernetes Product offering as partnership
-  between WWT and VMware.\nopagebreak \\
-Install and configure Kubernetes clusters and consult on ongoing cluster
-  administration.\\
+{\textbf{Practice Lead}, WWT Tanzu Kubernetes Platform Services Offering} \\
+\hspace{5mm}{\sl (VMware Tanzu Kubernetes Grid (TKG), Kubernetes, Terraform, Ansible, Helm,
+  VMware ESX, Amazon AWS)} \\
+Led technical execution for Tanzu Kubernetes Product offering as partnership
+  between WWT and VMware. \\
+Architected, installed and configured Kubernetes clusters and consulted with
+  client technical and executive roles on ongoing cluster administration.\\
 \vspace*{2mm}
 
-{\textbf{DevOps Engineering Consultant}, Multiple Clients} \nopagebreak \\
-{\sl (The Three Ways, Theory of Constraints, The Five Pillars, Lean, Kanban)} \nopagebreak \\
+{\textbf{DevOps Engineering Consultant}, Multiple WWT Clients} \\
+\hspace{5mm}{\sl (The Three Ways, Theory of Constraints, The Five Pillars, Kaizen, Lean, Kanban, Scrum)} \\
 Assess client engineering teams to identify and evaluate DevOps practices
   strengths and weaknesses.\\
 Develop executive strategies for enhancing DevOps excellence within IT
@@ -185,37 +226,52 @@ Embed within client infrastructure and software engineering teams to improve
   DevOps workflow by teaching, mentoring, and leading by example.\\
 \vspace*{2mm}
 
-{\textbf{Delivery Engineer}, National Retail Chain Replatform to Microservices} \nopagebreak \\
-{\sl (Kubernetes, KOPS, Helm, Amazon AWS, Ansible, Terraform, GitLab CI)} \nopagebreak \\
+{\textbf{Delivery Engineer}, WWT Microservices Replatform for National Retail Chain} \\
+\hspace{5mm}{\sl (Kubernetes, KOPS, Helm, Amazon AWS, Ansible, Terraform, GitLab CI, Packer, Docker, Jenkins, PostgreSQL)} \\
 Design and build vanilla Kubernetes environment in AWS for retail chain
   restaurant online ordering system.\\
 Implement all IaC and end-to-end CI/CD pipelines for Kubernetes infrastructure
   and AWS cloud environments.\\
 \vspace*{2mm}
 
+{\textbf{Lead Engineer: Infrastructure}, The New Yoark Times} \\
+\hspace{5mm}{\sl (Terraform, Puppet, Packer, Vault, Git, Python, Travis, Jenkins, Postgres)} \\
+Designed and built single, standardized OS image for deployment across three
+  infrastructure platforms. \\
+Designed and built CI/CD pipelines and automated testing platform for same. \\
+Built initial POC infrastructure for service migration to GCP cloud. \\
+\vspace*{2mm}
+
 %==== Awards ====%
 \header{Awards \& Recognition}
 
-\textbf{High Performing Employee} \hfill March 2022\\
+\textbf{High Performing Employee} \hfill Mar, 2022\\
 \hspace*{5mm} Practice Lead for Tanzu Kubernetes product offering.\\
 \vspace*{2mm}
 
-\textbf{High Performing Team Award} \hfill February 2021\\
+\textbf{High Performing Team Award} \hfill Feb, 2021\\
 \hspace*{5mm} DevOps Consultant for high profile credit union consulting project.\\
 \vspace*{2mm}
 
-\textbf{High Performing Team Award} \hfill November 2020\\
+\textbf{High Performing Team Award} \hfill Nov, 2020\\
 \hspace*{5mm} DevOps Consultant for Agile \& DevOps adoption program at a credit union.\\
 \vspace*{2mm}
 
-\textbf{High Performing Team Award} \hfill January 2019\\
+\textbf{High Performing Team Award} \hfill Jan, 2019\\
 \hspace*{5mm} Delivery Engineer for large retail chain website redesign.\\
 \vspace*{2mm}
 
 %==== Education ====%
-\header{Education}
-\textbf{University of Missouri - Columbia}\hfill Columbia, MO\\
-Bachelor of Science, Mathematics \hfill  - May 2000\\
+\header{Education and Certifications}
+\textbf{Bachelor of Science, Mathematics} \hfill University of Missouri - Columbia \hfill  May, 2000\\
+\vspace{2mm}
+
+%==== Education ====%
+\header{Education and Certifications}
+\begin{tabular}{ l l }
+  \textbf{RHCE 804005037814534}: Jun, 2008       & \textbf{Certified Scrum Master, Scrum Alliance}: Sep, 2017 \\
+  \textbf{GitLab Solutions Architect}: Dec, 2020 & \textbf{HashiCorp Certified Terraform Associate}: Jul, 2021 \\
+\end{tabular}
 \vspace{2mm}
 
 \end{document}
